@@ -6,7 +6,7 @@ Given a stream of taxi ride events from the public data set of New York Taxi and
 
 Our aim is to use as much as features of Apache Flink as possible for analysing the data.
 
-II.I OBJECTIVES:
+OBJECTIVES:
 
 1. To identify popular locations of New York city
 
@@ -14,10 +14,11 @@ It takes stream of taxi ride events and counts for each coordinate the no. of pe
 
 2. To identify popular pickup locations for any two particular locations.
 
-It takes stream of taxi ride events and two destination locations as argument and counts for each location the no. of times it is used for travelling to either of the given destination. Apache flink features used :- ( map, filter, fold,join,window) .
+    It takes stream of taxi ride events and two destination locations as argument and counts for each location the no. of         times it is used for travelling to either of the given destination. Apache flink features used :- ( map, filter, f	       old,join,window) .
 
 3. To split the datastream into day and night time and identify popular locations during those time.
- It takes stream of taxi ride events and perform splits the stream into two new streams, computes for each stream the popular locations. Apache flink features used :- ( map, filter, fold,split,window) .
+
+    It takes stream of taxi ride events and perform splits the stream into two new streams, computes for each stream the         popular locations. Apache flink features used :- ( map, filter, fold,split,window) .
  
 4. To compare popular locations over time interval of about 6 months.
 
