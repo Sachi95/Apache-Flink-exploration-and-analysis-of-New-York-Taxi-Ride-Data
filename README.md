@@ -10,7 +10,7 @@ Our aim is to use as much as features of Apache Flink as possible for analysing 
 
 1. <b> To identify popular locations of New York city </b>
 
-It takes stream of taxi ride events and counts for each coordinate the no. of people that arrive there by taxi. Apache flink features used :- ( map, filter, fold,window).  
+    It takes stream of taxi ride events and counts for each coordinate the no. of people that arrive there by taxi. Apache       flink features used :- ( map, filter, fold,window).  
 
 2. <b> To identify popular pickup locations for any two particular locations</b>
 
@@ -38,7 +38,7 @@ Step 6:  Setup the import maven projects automatically if you are having issues 
  
 Step 7:  Setup the JDK to your downloaded JDK version on hard drive
  
-Step 8:  Download Elastic Search <b> 2.4.5 </b> and Kibana <b> 4.5.3 <b>
+Step 8:  Download Elastic Search <b> 2.4.5 </b> and Kibana <b> 4.5.3 </b>
  
 Step 8:  Now setup index in Elastic Search
  
