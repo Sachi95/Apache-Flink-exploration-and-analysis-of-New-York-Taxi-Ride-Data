@@ -6,21 +6,21 @@ Given a stream of taxi ride events from the public data set of New York Taxi and
 
 Our aim is to use as much as features of Apache Flink as possible for analysing the data.
 
-OBJECTIVES:
+<b> OBJECTIVES: </b>
 
-1. To identify popular locations of New York city
+1. <b> To identify popular locations of New York city </b>
 
 It takes stream of taxi ride events and counts for each coordinate the no. of people that arrive there by taxi. Apache flink features used :- ( map, filter, fold,window).  
 
-2. To identify popular pickup locations for any two particular locations.
+2. <b> To identify popular pickup locations for any two particular locations</b>
 
     It takes stream of taxi ride events and two destination locations as argument and counts for each location the no. of         times it is used for travelling to either of the given destination. Apache flink features used :- ( map, filter, f	       old,join,window) .
 
-3. To split the datastream into day and night time and identify popular locations during those time.
+3. <b> To split the datastream into day and night time and identify popular locations during those time.</b>
 
     It takes stream of taxi ride events and perform splits the stream into two new streams, computes for each stream the         popular locations. Apache flink features used :- ( map, filter, fold,split,window) .
  
-4. To compare popular locations over time interval of about 6 months.
+4. <b> To compare popular locations over time interval of about 6 months </b>
 
 Procedure
 Step 1:  Install JDK version 1.8 or above
@@ -38,7 +38,7 @@ Step 6:  Setup the import maven projects automatically if you are having issues 
  
 Step 7:  Setup the JDK to your downloaded JDK version on hard drive
  
-Step 8:  Download Elastic Search 2.4.5 and Kibana 4.5.3
+Step 8:  Download Elastic Search <b> 2.4.5 </b> and Kibana <b> 4.5.3 <b>
  
 Step 8:  Now setup index in Elastic Search
  
